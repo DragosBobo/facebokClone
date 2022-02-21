@@ -21,15 +21,16 @@ function Header() {
       alt="" />
       <div className="header__input">
           <SearchIcon/>
-            <input type="text" />
+            <input type="text" placeholder='Search Facebook '/>
       </div>
     
       </div>
       <div className="header__center"> 
-      <div className="header__option">  
-       <HomeIcon/>
+      <div className="header__option  header__option--active">  
+       <HomeIcon />
        </div> 
-       <div className="header__option">
+       <div className="header__option 
+      ">
           <FlagIcon/>
             
       </div>
