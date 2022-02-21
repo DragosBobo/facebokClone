@@ -1,0 +1,22 @@
+.widgets {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  margin: 25px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.65);
+  transition: transform 100ms ease-in;
+}
+.widgets__container > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.widgets > h3 {
+  color: gray;
+}
+.widgets:hover {
+  transform: scale(1.07);
+}
