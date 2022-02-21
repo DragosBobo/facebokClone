@@ -9,6 +9,9 @@ import SupervisedUserCircleIcon from '@mui/icons-material/SupervisedUserCircle';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import AddIcon from '@mui/icons-material/Add';
+import ForumIcon from '@mui/icons-material/Forum';
+import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function Header() {
   return (
@@ -22,7 +25,7 @@ function Header() {
       </div>
     
       </div>
-      <div className="header__middle"> 
+      <div className="header__center"> 
       <div className="header__option">  
        <HomeIcon/>
        </div> 
@@ -48,8 +51,21 @@ function Header() {
           <Avatar />
           <h4>hello</h4>
           <IconButton> 
-    
+
               <AddIcon/>
+          </IconButton>
+          <IconButton> 
+
+              <ForumIcon/>
+          </IconButton>
+          <IconButton> 
+
+              <NotificationsActiveIcon/>
+
+          </IconButton>
+          <IconButton> 
+
+              <ExpandMoreIcon/>
           </IconButton>
           </div>  </div>
  </div>
